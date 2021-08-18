@@ -1,0 +1,40 @@
+.myList__div {
+  background-color: #070707;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  box-shadow: #d17b0f 0px 30px 60px -12px inset,
+    #251501 0px 18px 36px -18px inset;
+  display: inline-table;
+}
+.myList__div-div {
+  margin: 3%;
+  background-color: #a1e887;
+  width: 40vw;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 2vw;
+  box-shadow: rgb(2, 73, 34) 0px 19px 38px, rgb(2, 73, 34) 0px 15px 12px;
+  border-radius: 10%;
+  display: inline-table;
+}
+.form__input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  font-size: x-large;
+}
+h1 {
+  color: #d17b0f;
+}
+
+h4 {
+  color: #931621;
+}
