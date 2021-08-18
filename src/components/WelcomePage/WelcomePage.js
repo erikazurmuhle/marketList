@@ -1,6 +1,7 @@
 import React from "react";
 import "./WelcomePage.css";
 import { Link } from "react-router-dom";
+import Login from "../../Login";
 
 function WelcomePage() {
   return (
@@ -11,7 +12,7 @@ function WelcomePage() {
           Welcome to Market List!!
         </p>
         <Link className="nav__link link" to="/mylist">
-          Go to my List
+          <Login />
         </Link>
       </nav>
     </div>
